@@ -97,7 +97,7 @@ function getDemoInfo(id) {
         console.log(metadata)
 
         //filter by id//
-        var result = metadata.filter(meta => meta.id.toString() === id)[0];
+        var result = metadata.filter(meta => meta.id.tostring() === id)[0];
 
         //select demographic panel//
         var demographicInfo = d3.select("#sample-metadata");
@@ -114,8 +114,8 @@ function getDemoInfo(id) {
 }
 
 // When a choice is made... //
-function optionChanged(id) {
-    getPlots(id);
+function choice(id) {
+    getplots(id);
     getDemoInfo(id);
 }
 
@@ -134,8 +134,8 @@ function init() {
         });
 
         //call the functions to display plots//
-        getPlots(data.names[0]);
-        getDemoInfo(data.names[0]);
+        getplots(data.names[0]);
+        detDemoInfo(data.names[0]);
     });
 }
 
