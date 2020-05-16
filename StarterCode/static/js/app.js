@@ -110,6 +110,8 @@ function getDemoInfo(id) {
             demographicInfo.append("h5").text(key[0].toUpperCase() + ": " + key[1] + "\n");
 
         });
+        //build the guage plot
+        buildGauge(result.wfreq);
     });
 }
 
@@ -117,6 +119,8 @@ function getDemoInfo(id) {
 function optionChanged(id) {
     getPlots(id);
     getDemoInfo(id);
+    buildGauge(id.wfreq)
+
 }
 
 // initial data rendering//
