@@ -1,5 +1,7 @@
 # plotly-challenge
 
+Plotly website deployed at :
+https://cselleck.github.io/plotly-challenge/
 
 Heroku pet-pals deployment:
 
