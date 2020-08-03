@@ -1,3 +1,15 @@
+# plotly-challenge
+
+Plotly website deployed at :
+https://cselleck.github.io/plotly-challenge/
+
+Heroku pet-pals deployment:
+
+https://git.heroku.com/clayspetpals.git
+
+
+
+
 # Plot.ly Homework - Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
