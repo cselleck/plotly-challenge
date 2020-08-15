@@ -1,3 +1,4 @@
+bio page: https://cselleck.github.io/
 # plotly-challenge
 
 Plotly website deployed at :
